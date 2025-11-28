@@ -1,6 +1,6 @@
 import { DataTypes, Model } from "sequelize";
 import { sequelize } from "../db/database";
-import { Cliente } from "./Cliente";
+import { Cliente } from "./cliente";
 
 export class Cita extends Model {
   public id_cita!: number;
