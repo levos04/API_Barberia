@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { Cliente } from "../models/Cliente";
+import { Cliente } from "../models/cliente";
 
 export const registrarCliente = async (req: Request, res: Response) => {
   try {
