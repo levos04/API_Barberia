@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
-import { Cita } from "../../models/cita";
+import { Cita } from "../../../models/cita";
 import { Op } from "sequelize";
-import { reprogramarCitaSchema } from "../validations/citaValidation";
+import { reprogramarCitaSchema } from "../../validations/citaValidation";
 
 export const reprogramarCita = async (req: Request, res: Response) => {
     try {

@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { Cita } from "../../models/cita";
+import { Cita } from "../../../models/cita";
 
 export const cancelarCita = async (req: Request, res: Response) => {
     try {
